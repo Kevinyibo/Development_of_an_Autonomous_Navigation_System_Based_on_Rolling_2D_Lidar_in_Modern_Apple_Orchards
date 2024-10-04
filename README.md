@@ -4,3 +4,7 @@ We have developed an autonomous mobile robot for modern orchards. This robot is 
 <p align="center">
   <img src="img/Hardware_Schematic.jpg" alt="Hardware Overview" width="80%"/>
 </p>
+
+### Construction of 3D Point Clouds
+Synchronizing the 2D point cloud, servo motor angle feedback, wheeled odometry, and IMU data, and registering the 2D point cloud data into the O3d-xyz reference coordinate system for 3D point clouds, ultimately publishing the accumulated 3D point cloud data from every half rolling cycle at a frequency of 15 Hz for environmental perception processing. The result of indoor 3D point cloud acquisition is as follows.
+

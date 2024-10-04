@@ -16,7 +16,7 @@ Synchronizing the 2D point cloud, servo motor angle feedback, wheeled odometry, 
   <img src="img/3D_pointcloud.jpg" alt="3D pointcloud" width="80%"/>
 </p>
 
-### Tree row 3D Point cloud segmentation
+### Tree Row 3D Point Cloud Segmentation
 We used a point cloud segmentation strategy to extract the point cloud data of the fruit tree in the tree row where the robot is currently located, and the results are as follows:
 
 <p align="center">
@@ -26,3 +26,15 @@ We used a point cloud segmentation strategy to extract the point cloud data of t
 <p align="center">
   <img src="img/treerow_extraction.jpg" alt="tree row extraction" width="80%"/>
 </p>
+
+### Navigation Line Fitting
+The extracted tree row point cloud is finally utilized to fit the navigation line for the robot autonomous guidance, the results are as follows:
+
+<p align="center">
+  <img src="img/Navigation_line_fitting.gif" alt="Navigation line fitting" width="80%"/>
+</p>
+
+## Author
+Yibo Zhou
+
+College of Mechanical and Electronic Engineering, Northwest A&F University

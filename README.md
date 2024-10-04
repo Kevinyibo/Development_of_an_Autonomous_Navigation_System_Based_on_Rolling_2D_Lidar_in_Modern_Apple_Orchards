@@ -24,5 +24,5 @@ We used a point cloud segmentation strategy to extract the point cloud data of t
 </p>
 
 <p align="center">
-  <img src="img/treerow_extraction.gif" alt="tree row extraction" width="80%"/>
+  <img src="img/treerow_extraction.jpg" alt="tree row extraction" width="80%"/>
 </p>

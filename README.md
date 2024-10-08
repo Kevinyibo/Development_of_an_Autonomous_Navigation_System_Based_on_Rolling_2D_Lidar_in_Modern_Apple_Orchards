@@ -2,7 +2,7 @@
 We have developed an autonomous mobile robot for modern orchards. This robot is capable of scanning the orchard environment using a 2D lidar through rolling motion to obtain 3D point cloud data of the orchard. It then utilizes the 3D point cloud of the current tree row to extract and fit tree row lines and the navigation line. By employing trajectory tracking, the robot achieves autonomous navigation between rows. At the end of each row, it utilizes point cloud data to determine and locate the end of the row, and ultimately performs the U-turn. The robot is mainly composed of a 2D lidar, a servo motor (equipped with high-precision magnetic encoders), an IMU (Inertial Measurement Unit), and a four-wheel independently driven chassis (with wheel speed feedback). The robot and all sensors follow the right-hand Cartesian coordinate system
 
 <p align="center">
-  <img src="img/Hardware_Schematic.jpg" alt="Hardware Overview" width="80%"/>
+  <img src="img/Hardware_Schematic.jpg" alt="Hardware Overview" width="95%"/>
 </p>
 
 ### Construction of 3D Point Clouds
